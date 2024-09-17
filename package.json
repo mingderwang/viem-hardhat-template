@@ -2,6 +2,10 @@
   "name": "viem-hardhat",
   "version": "v0.0.3",
   "license": "MIT",
+  "scripts": {
+    "client": "npx hardhat run scripts/clients.ts",
+    "contracts": "npx hardhat run scripts/contracts.ts"
+  },
   "devDependencies": {
     "@types/bun": "latest",
     "hardhat": "^2.22.10",
