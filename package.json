@@ -1,6 +1,6 @@
 {
   "name": "viem-hardhat",
-  "version": "v0.0.4",
+  "version": "v0.1.0",
   "license": "MIT",
   "scripts": {
     "client": "npx hardhat run scripts/clients.ts",
