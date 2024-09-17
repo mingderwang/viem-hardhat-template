@@ -1,10 +1,11 @@
 {
   "name": "viem-hardhat",
-  "version": "v0.0.3",
+  "version": "v0.0.4",
   "license": "MIT",
   "scripts": {
     "client": "npx hardhat run scripts/clients.ts",
-    "contracts": "npx hardhat run scripts/contracts.ts"
+    "contracts": "npx hardhat run scripts/contracts.ts",
+    "deploy:lock": "npx hardhat ignition deploy ./ignition/modules/Lock.ts --network localhost"
   },
   "devDependencies": {
     "@types/bun": "latest",
@@ -17,7 +18,7 @@
   "dependencies": {
     "@nomicfoundation/hardhat-toolbox-viem": "^3.0.0",
     "@nomicfoundation/hardhat-viem": "^2.0.4",
-    "@typechain/ethers-v5": "^11.1.2",
+    "@typechain/ethers-v6": "^0.5.1",
     "@typechain/hardhat": "^9.1.0",
     "ethers": "^6.13.2",
     "typechain": "^8.3.2",
