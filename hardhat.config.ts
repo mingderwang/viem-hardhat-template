@@ -3,7 +3,7 @@ import "@nomicfoundation/hardhat-toolbox-viem";
 import "@typechain/hardhat";
 
 const config: HardhatUserConfig = {
-  solidity: "0.8.24",
+  solidity: "0.8.27",
   typechain: {
     outDir: "typechain",
     target: "ethers-v5",
